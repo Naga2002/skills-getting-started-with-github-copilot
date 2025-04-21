@@ -85,6 +85,8 @@ def root():
 
 @app.get("/activities")
 def get_activities():
+    """Return all activities with their details"""
+    # Simply return the full activities dictionary
     return activities
 
 
